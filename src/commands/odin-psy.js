@@ -36,7 +36,7 @@ const command = {
 
     function createCsv(recordes) {
       const csvWriter = createCsvWriter({
-        path: output_dir + '/teste.csv',
+        path: output_dir + '/artifacts.csv',
         header: [
           { id: 'file_obj_id', title: 'file_obj_id' },
           { id: 'file_ctime', title: 'file_ctime' },
